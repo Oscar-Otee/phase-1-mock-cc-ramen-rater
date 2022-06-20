@@ -104,8 +104,6 @@ function loadRamen(id){
     .catch( error => {throw error})
 }
 
-function submitVotesForm(votes){
-  document.getElementById("vote-count").innerText = votes
-}
+
 
 
